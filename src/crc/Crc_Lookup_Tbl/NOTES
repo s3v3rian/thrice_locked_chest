@@ -1,0 +1,16 @@
+Parameters for generating crc tables by device
+
+Original.
+#define TB_WIDTH	4
+#define TB_POLY		0x04C11DB7L
+#deifne TB_REVER	TRUE
+
+Asena injectors.
+#define TB_WIDTH	2
+#define TB_POLY 	0x11021
+#define TB_REVER	FALSE
+
+Hamilton block ventilators.
+#define TB_WIDTH  	1
+#define TB_POLY 	0xD5
+#define TB_REVER  	FALSE
