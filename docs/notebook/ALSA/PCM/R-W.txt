@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-10T11:41:41-04:00
+
+====== R-W ======
+Created Saturday 10 October 2020
+
+Basic Read/Write - Standard I/O
+Read and Write functions allow reading and writing audio data from devices. These functions can be working in non blocking or blocking mode.
+1. Non blocking means that if data is unavailable then we return with error code immediately.
+2. Blocking moeans that if data is unavailable then we are blocked until the ring buffer has data (playback) or new data is available (capture).
+
+Using standard I/O we can access data using interleaved or non interleaved access.
+

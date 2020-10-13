@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-03T13:57:32-04:00
+
+====== Memory Ordering ======
+Created Saturday 03 October 2020
+
+Interesting article - http://gcc.gnu.org/wiiki/Atomic/GCCMM/AtomicSync
+
+Atomic variables are primarily used for syncing shared memory access between threads.
+To support an atomic operation we need the following:
+1. Store.
+2. Load.
+3. Memory Model.
+For example if an atomic class supports an atomic operation on an int64_t type then there is a Load and Store operation for this type.
+
+Memory Models.
+1. Seq Consistent - Default.
+2. Relaxed.
+3. Acquire/Release.
+4. Consume.
+
+__Seq Consistent__

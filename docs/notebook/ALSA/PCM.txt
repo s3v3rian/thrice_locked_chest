@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-10T10:31:46-04:00
+
+====== PCM ======
+
+Explanation
+
+Capture value - Recorded via ADC.
+Playback value - Is the de facto volume at a specific time.
+
+Note - The quality of digital signal depends on the time (recording state) and voltage resolution.
+
+PCM Frame - Contains a sample or multiple samples (If contains one sample means mono, multiple means stereo).
+
+PCM states are:
+
+1. SND_PCM_STATE_OPEN - After calling snd_pcm_open().
+2. SND_PCM_STATE_SETUP - New parameters are accepted and waiting for snd_pcm_prepare() function call.
+3. SND_PCM_STATE_PREPARED - Device is prepared.
+4. SND_PCM_STATE_RUNNING
+5. SND_PCM_STATE_XRUN - Device is in overrun or underrun state. Should use snd_pcm_recover() to recover from this state.
+6. SND_PCM_STATE_DRAINING
+7. SND_PCM_STATE_PAUSED
+8. SND_PCM_STATE_SUSPENDED
+9. SND_PCM_STATE_DISCONNECTED

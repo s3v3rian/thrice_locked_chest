@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-09T05:25:57-04:00
+
+====== ALSA ======
+Created Friday 09 October 2020
+
+Parameters are hw and sw.
+
+1. HW parameters can be changed only on initialization of device.
+2. SW parameters can be changed during any state.

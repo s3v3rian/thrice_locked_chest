@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-09T05:26:18-04:00
+
+====== HW Parameters ======
+Created Friday 09 October 2020
+
+Interleaved vs Non Interleaved
+
+Interleaved ---> A sample arrives from each channel one after the other.
+Non Interleaved ---> 
